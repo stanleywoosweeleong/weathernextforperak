@@ -1890,7 +1890,7 @@
         // On the VERY FIRST launch this seeds:
         //   - the company display name (so the app shows it with no
         //     onboarding prompt — but it stays editable via Edit Name)
-        //   - 5 company farm(s) into customLocations
+        //   - 4 company farm(s) into customLocations
         // After that the user has full control: rename, edit, delete
         // (soft + permanent), add new farms, receive shared locations —
         // exactly like the generic build. The seed never runs again
@@ -1920,8 +1920,7 @@
                     {"id": "c_pk-chenderiang",    "en": "Chenderiang",     "zh": "积莪营",   "lat": 4.256043, "lng": 101.227729, "t": 0, "p": 0, "em": false},
                     {"id": "c_pk-sungkai",        "en": "Sungkai",         "zh": "宋溪",     "lat": 3.978889, "lng": 101.360278, "t": 0, "p": 0, "em": false},
                     {"id": "c_pk-diamond-creeks", "en": "Diamond Creeks",  "zh": "钻石溪",   "lat": 3.77550,  "lng": 101.52567,  "t": 0, "p": 0, "em": false},
-                    {"id": "c_pk-tanjung-malim",  "en": "Tanjung Malim",   "zh": "丹绒马林", "lat": 3.71778,  "lng": 101.55278,  "t": 0, "p": 0, "em": false},
-                    {"id": "c_pk-sungai-lembing", "en": "Sungai Lembing",  "zh": "林明",     "lat": 3.85000,  "lng": 103.03333,  "t": 0, "p": 0, "em": false}
+                    {"id": "c_pk-tanjung-malim",  "en": "Tanjung Malim",   "zh": "丹绒马林", "lat": 3.71778,  "lng": 101.55278,  "t": 0, "p": 0, "em": false}
                 ];
                 // Merge into whatever is already there (e.g. a deep-link
                 // location the user received before first cold start).
@@ -1951,7 +1950,7 @@
                     favs = rawF ? (JSON.parse(rawF) || []) : [];
                     if (!Array.isArray(favs)) favs = [];
                 } catch (e) { favs = []; }
-                var seedIds = ["c_pk-chenderiang", "c_pk-sungkai", "c_pk-diamond-creeks", "c_pk-tanjung-malim", "c_pk-sungai-lembing"];
+                var seedIds = ["c_pk-chenderiang", "c_pk-sungkai", "c_pk-diamond-creeks", "c_pk-tanjung-malim"];
                 seedIds.forEach(function (id) {
                     if (favs.indexOf(id) === -1) favs.push(id);
                 });

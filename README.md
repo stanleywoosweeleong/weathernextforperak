@@ -33,7 +33,6 @@ like from inside the app.
 | Sungkai | 宋溪 | 3.978889, 101.360278 |
 | Diamond Creeks | 钻石溪 | 3.77550, 101.52567 |
 | Tanjung Malim | 丹绒马林 | 3.71778, 101.55278 |
-| Sungai Lembing | 林明 | 3.85000, 103.03333 |
 
 The app also seeds a default user display name (**胡瑞良** / Stanley Woo), which
 stays editable via **Edit Name** in the app.
