@@ -1,0 +1,163 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!--   -->
+  <!-- WeatherNext — Perak build icon                                 -->
+  <!-- Theme: river streams winding through an orchard plantation     -->
+  <!-- Flat-illustration style, matched to the WeatherNext family     -->
+  <!--   -->
+  <defs>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="512" height="512"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!--  SKY   -->
+    <rect x="0" y="0" width="512" height="230" fill="#7dc4f0"/>
+
+    <!-- sun, top-right, with rays  -->
+    <g stroke="#f4a932" stroke-width="9" stroke-linecap="round">
+      <line x1="418" y1="34"  x2="418" y2="8"/>
+      <line x1="418" y1="118" x2="418" y2="144"/>
+      <line x1="376" y1="76"  x2="350" y2="76"/>
+      <line x1="460" y1="76"  x2="486" y2="76"/>
+      <line x1="388" y1="46"  x2="370" y2="28"/>
+      <line x1="448" y1="46"  x2="466" y2="28"/>
+      <line x1="388" y1="106" x2="370" y2="124"/>
+      <line x1="448" y1="106" x2="466" y2="124"/>
+    </g>
+    <circle cx="418" cy="76" r="34" fill="#fbc02d"/>
+
+    <!-- clouds  -->
+    <g fill="#f4f9fd">
+      <ellipse cx="96"  cy="66" rx="44" ry="20"/>
+      <ellipse cx="128" cy="58" rx="30" ry="20"/>
+      <ellipse cx="70"  cy="58" rx="26" ry="17"/>
+    </g>
+    <g fill="#d4e8f6">
+      <ellipse cx="338" cy="150" rx="34" ry="14"/>
+      <ellipse cx="360" cy="144" rx="22" ry="14"/>
+    </g>
+
+    <!--  ROLLING HILLS   -->
+    <!-- far hill band  -->
+    <path d="M0,230 Q128,196 256,222 Q384,248 512,212 L512,330 L0,330 Z" fill="#7cb342"/>
+    <!-- mid hill band  -->
+    <path d="M0,272 Q140,238 280,272 Q400,300 512,262 L512,400 L0,400 Z" fill="#689f38"/>
+    <!-- near plantation ground  -->
+    <rect x="0" y="356" width="512" height="156" fill="#7cb342"/>
+    <path d="M0,356 Q128,330 256,356 Q384,382 512,350 L512,512 L0,512 Z" fill="#7cb342"/>
+
+    <!-- RIVER STREAMS through the orchard  -->
+    <!-- Main river — source sits on the green hillside, widens toward us -->
+    <path d="M276,262
+             C266,296 232,312 244,350
+             C254,384 214,408 222,452
+             C228,486 210,502 206,512"
+          fill="none" stroke="#4fa8df" stroke-width="40" stroke-linecap="round"/>
+
+    <!-- Right tributary — flows in from the right, ends on the main river -->
+    <path d="M512,330
+             C452,338 420,362 362,366
+             C318,369 282,366 250,352"
+          fill="none" stroke="#4fa8df" stroke-width="25" stroke-linecap="round"/>
+
+    <!-- Left brook — flows in from the left, ends on the main river -->
+    <path d="M0,408
+             C56,402 96,418 150,422
+             C188,425 212,432 230,440"
+          fill="none" stroke="#4fa8df" stroke-width="21" stroke-linecap="round"/>
+
+    <!-- Lighter water highlight, drawn on top in the same join order -->
+    <path d="M276,262
+             C266,296 232,312 244,350
+             C254,384 214,408 222,452
+             C228,486 210,502 206,512"
+          fill="none" stroke="#6fc0ec" stroke-width="17" stroke-linecap="round"/>
+    <path d="M512,330
+             C452,338 420,362 362,366
+             C318,369 282,366 250,352"
+          fill="none" stroke="#6fc0ec" stroke-width="10" stroke-linecap="round"/>
+    <path d="M0,408
+             C56,402 96,418 150,422
+             C188,425 212,432 230,440"
+          fill="none" stroke="#6fc0ec" stroke-width="8" stroke-linecap="round"/>
+
+    <!--  ORCHARD TREES (planted in rows between streams)   -->
+    <!-- a reusable look: brown trunk + layered green canopy + orange fruit  -->
+
+    <!-- back row, smaller  -->
+    <g>
+      <rect x="80" y="250" width="9" height="22" rx="3" fill="#8d6e63"/>
+      <circle cx="84" cy="240" r="24" fill="#4e8a3a"/>
+      <circle cx="72" cy="248" r="16" fill="#5fa047"/>
+      <circle cx="96" cy="248" r="16" fill="#5fa047"/>
+      <circle cx="76" cy="236" r="4.5" fill="#f4953f"/>
+      <circle cx="92" cy="244" r="4.5" fill="#f4953f"/>
+    </g>
+    <g>
+      <rect x="410" y="244" width="9" height="22" rx="3" fill="#8d6e63"/>
+      <circle cx="414" cy="234" r="24" fill="#4e8a3a"/>
+      <circle cx="402" cy="242" r="16" fill="#5fa047"/>
+      <circle cx="426" cy="242" r="16" fill="#5fa047"/>
+      <circle cx="406" cy="230" r="4.5" fill="#f4953f"/>
+      <circle cx="422" cy="238" r="4.5" fill="#f4953f"/>
+    </g>
+
+    <!-- mid orchard rows  -->
+    <g>
+      <rect x="120" y="338" width="13" height="30" rx="4" fill="#8d6e63"/>
+      <circle cx="126" cy="322" r="33" fill="#4e8a3a"/>
+      <circle cx="108" cy="334" r="22" fill="#62a449"/>
+      <circle cx="146" cy="334" r="22" fill="#62a449"/>
+      <circle cx="114" cy="316" r="6" fill="#f4953f"/>
+      <circle cx="138" cy="326" r="6" fill="#f4953f"/>
+      <circle cx="128" cy="338" r="6" fill="#f4953f"/>
+    </g>
+    <g>
+      <rect x="346" y="320" width="13" height="30" rx="4" fill="#8d6e63"/>
+      <circle cx="352" cy="304" r="33" fill="#4e8a3a"/>
+      <circle cx="334" cy="316" r="22" fill="#62a449"/>
+      <circle cx="372" cy="316" r="22" fill="#62a449"/>
+      <circle cx="340" cy="298" r="6" fill="#f4953f"/>
+      <circle cx="364" cy="308" r="6" fill="#f4953f"/>
+      <circle cx="354" cy="320" r="6" fill="#f4953f"/>
+    </g>
+    <g>
+      <rect x="446" y="372" width="14" height="32" rx="4" fill="#8d6e63"/>
+      <circle cx="453" cy="354" r="36" fill="#4e8a3a"/>
+      <circle cx="432" cy="368" r="24" fill="#62a449"/>
+      <circle cx="474" cy="368" r="24" fill="#62a449"/>
+      <circle cx="440" cy="348" r="6.5" fill="#f4953f"/>
+      <circle cx="466" cy="358" r="6.5" fill="#f4953f"/>
+      <circle cx="456" cy="372" r="6.5" fill="#f4953f"/>
+    </g>
+
+    <!-- front orchard rows, larger  -->
+    <g>
+      <rect x="56" y="448" width="17" height="40" rx="5" fill="#7d5c52"/>
+      <circle cx="65" cy="426" r="44" fill="#477f36"/>
+      <circle cx="40" cy="442" r="29" fill="#589743"/>
+      <circle cx="90" cy="442" r="29" fill="#589743"/>
+      <circle cx="48" cy="418" r="8" fill="#f4953f"/>
+      <circle cx="80" cy="430" r="8" fill="#f4953f"/>
+      <circle cx="66" cy="446" r="8" fill="#f4953f"/>
+    </g>
+    <g>
+      <rect x="350" y="452" width="17" height="42" rx="5" fill="#7d5c52"/>
+      <circle cx="359" cy="430" r="46" fill="#477f36"/>
+      <circle cx="332" cy="448" r="30" fill="#589743"/>
+      <circle cx="386" cy="448" r="30" fill="#589743"/>
+      <circle cx="342" cy="420" r="8" fill="#f4953f"/>
+      <circle cx="376" cy="434" r="8" fill="#f4953f"/>
+      <circle cx="360" cy="452" r="8" fill="#f4953f"/>
+    </g>
+
+    <!-- subtle furrow rows on the near ground for the plantation feel  -->
+    <g stroke="#6ba63c" stroke-width="3" fill="none" opacity="0.7">
+      <path d="M0,470 Q256,452 512,474"/>
+      <path d="M0,492 Q256,476 512,496"/>
+    </g>
+
+  </g>
+</svg>
