@@ -15,7 +15,7 @@
 // pk-arch1. bump CACHE_VERSION on each release
 // ============================================================
 
-const CACHE_VERSION = 'wnext-weathernextforperak-202606032300';
+const CACHE_VERSION = 'wnext-weathernextforperak-202606041201';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const WEATHER_CACHE = `${CACHE_VERSION}-weather`;
