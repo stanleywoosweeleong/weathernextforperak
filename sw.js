@@ -46,7 +46,7 @@
 // / Dense fog in the morning / Kabus tebal waktu pagi). Perak identity
 // (first non-Pahang, weathernextforperak) unchanged.
 
-const CACHE_VERSION = 'wnext-weathernextforperak-202606062229';
+const CACHE_VERSION = 'wnext-weathernextforperak-202606090200';
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 const WEATHER_CACHE = `${CACHE_VERSION}-weather`;
